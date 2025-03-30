@@ -5,10 +5,6 @@ build:
   tools:
     python: "3.11"
 
-  jobs:
-    pdf:
-      format: pdf  
-
 # Build from the source/ directory with Sphinx
 sphinx:
   configuration: source/conf.py
